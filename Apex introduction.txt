@@ -1,0 +1,30 @@
+https://trailhead.salesforce.com/en/content/learn/modules/apex_database/apex_database_intro
+
+Allow users to add business logic to system events (such as button click, updates of record, Visualforcep pages)
+it is a programming language that uses java like syntax
+
+
+//Apex can be 
+Hosted ------ Apex is saved,compiled and executed on the server(salesforce lighning platform)
+Object Oriented ------- Apex supports classes,interfaces and inheritance
+Strongly typed ----- Apex validates references to objects at compile time
+Multinenant aware----- Multitenancy(mode of software where multiple indepedant instance of one
+			or multiple application operate in the shared environment
+Data focused------ allow roll back operation 
+can be used for cloud development--- as it is stored compiled and executed in the cloud
+
+
+//we can write apex 
+1in the developer console
+2.on client using the salesforce extention for visual studio console
+
+
+//Data types supported
+
+primitive
+sObjects
+collections(list, set, map)
+user defined apex class
+System supplied apex class
+
+

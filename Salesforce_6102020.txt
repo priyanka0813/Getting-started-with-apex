@@ -1,0 +1,92 @@
+//difference between look up and masterdetail
+
+look up is used for objects where the objects are related only for some cases.
+sometimes. they can be independent
+
+where as master detail relationship is made for objects which is logically dependent on another object.
+a detail object should always be related to the master object.
+
+
+//CL loan product( package)
+
+1)First create a lending product
+select accordingly to the requirement
+
+2)Go to CL contract(which is the loan)
+	select the record type(loan or lease or credit )
+	loan means natural loan,lease means you dont have the full authorization on the product after a period either you have to give back the product or take it after a amount of payment
+	
+	select account
+	Account means a organization/company or any person
+	where as contact means a person only(we generally choose account)
+	
+	from the look up tableselect account name,product,purpose
+	enter the loan amount
+
+	interest calculation method which can be(flat/declining/flexible)
+	flat means the interest wil;l remain fixed on the initial principle amount
+	declining means the interest will be calculated on the basis of declining principle amount where as the due principle amount remain same
+	
+	provide the other details and the maturity date.
+
+	Delinquent account is an account which failed to pay the emi on the date
+	Delinquency grace is the no of days for which the system will wait before categorizing the account as delinquent account.
+
+	Click save once you save
+
+3)in delinquency fund Approve the loan( Cl Contract) it will show active 
+
+4)go to transaction tab
+	select on fund( disburse payment ) select payment type(cash /check)
+	save.
+	the status will be active and good
+
+
+
+
+//to see the status of bill for timely payment and delayed payment to see the functionality
+
+1) Move the date
+	SOD/EOD (move the system date
+	Go to sevice configuration
+	select SOD/EOD
+	change the system date( to the disbursed date of the amount)
+	click move to date save then refresh
+
+2) create the new contract accourding to the moved disbursed date (past) suppose give it 2019
+
+3) Approve the contract select transaction and disburse the amount
+
+
+//to check the biling now 
+1)go to the EOD/SOD process move the date to the first payment date-(pay bill generation date) example if the bil generation is 7 days prior to the first payment date the first payment date-7
+
+2)go to the contract refresh it.
+
+3) move to transaction 
+
+4) click on bills we wil be able to see the bill yet it is not satisfied untill we make the payment.
+
+
+
+//to make the first payment [Status ACTIVE GOOD STANDING ]
+
+1) change the system date again in EOD/SOD to the payment date
+
+2) go to the contract
+
+3) go to transaction select payment
+
+4) create new payment ( everything is auto updated that is how much we have to pay etc)
+
+5) save it. go to transaction select bills now we wil se the payment is satisfied
+
+
+//how to delay the next payment so see the status of account to [ACTIVE BAD STANDING]
+
+1) move the date after delinquency date in the system
+
+2)then refresh we wil se the conteract as active bad standing
+
+
+

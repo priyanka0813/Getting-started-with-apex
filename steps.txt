@@ -1,0 +1,14 @@
+//how to add extension for easy access
+
+1. go to scrome
+2.extension
+3.move to the cloud icon at the right top or search salesforce advance code searcher
+4. add the extensation
+5.done
+
+//how to open developers console in salesforce
+
+1. select the drop down list under your name
+2.select developers console
+3.click drop down list under debug
+4. select execute anonomous window 
