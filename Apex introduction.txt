@@ -19,6 +19,7 @@ can be used for cloud development--- as it is stored compiled and executed in th
 2.on client using the salesforce extention for visual studio console
 
 
+
 //Data types supported
 
 primitive
@@ -26,5 +27,6 @@ sObjects
 collections(list, set, map)
 user defined apex class
 System supplied apex class
+
 
 

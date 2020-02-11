@@ -1,7 +1,0 @@
-//difference between look up and masterdetail
-
-look up is used for objects where the objects are related only for some cases.
-sometimes. they can be independent
-
-where as master detail relationship is made for objects which is logically dependent on another object.
-a detail object should always be related to the master object.

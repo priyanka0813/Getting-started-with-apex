@@ -6,9 +6,24 @@
 4. add the extensation
 5.done
 
+
 //how to open developers console in salesforce
 
 1. select the drop down list under your name
 2.select developers console
 3.click drop down list under debug
 4. select execute anonomous window 
+
+
+//how to write and run a apex program in sales force
+
+1.go to quick flow search apex classes
+2. select apex class and click new
+3. write a apex class and save it
+4.go to developers console
+5.write a code and highlight it
+6.check the log button and click on execute highlighted portion
+7.in the log click on debug only to filter the debug
+8 you will see the output which is given in System.debug
+
+

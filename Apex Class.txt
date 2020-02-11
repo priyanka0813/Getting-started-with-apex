@@ -1,5 +1,68 @@
-PUBLIC 
-GLOBAL
-WITH SHARING
-WITHOUT SHARING
+APEX CLASS TYPE
+in apex classess means actually objects
+
+PRIVATE CLASS it is only known to the block in which it is declared,by default all the inner classes are public
+PUBLIC CLASS this class is visible throughout your applications and this application is visible everywhere
+GLOBAL visible to all applications inside applications and even outside the application
+WITH SHARING it will consider the sharing rules given to the user based on permission given to him on object and field
+WITHOUT SHARING  apex runs in system mode and it have access to all objects and fields irrespective of user
+
 LINK: https://www.tutorialkart.com/apex_soql/apex-access-modifiers-with-sharing-without-sharing/
+
+
+
+
+APEX DEBUGGING
+System.debug() a method which prints the value and output of variable in debug logs
+
+
+
+APEX DEBUG LOG
+Debug log can record
+
+database operations
+System process
+errors 
+that occurs when executing a transaction or running unit test
+
+Contains information about
+Database changes
+HTTP callouts
+Apex errors
+Resources used by Apex
+Automated workflowprocess such as workflow rules,Approval process,assignment rules and validation rules
+
+we can retain and manage debug logs for
+ specific users,including 
+ourselves 
+and for classes
+and trggers
+
+
+
+WHAT IS BATCHED JOBES IN APEX
+
+Batch Apex is used to run large jobs( like a job on thousands and million of recrods in a
+ asyncronous mode)
+
+
+
+WHAT IS APEX FLEX QUEUE
+
+it enable us to submit maximum 100 batched jobs for execution
+
+
+
+WHAT IS sObject
+
+Like in Java we have a object baseclass from which all the objects are derived. same way in salesforce we have sObject it acts like a base class in apex from which all the object classes are derived
+Like in sql query the database is collection of tables and within table we have records
+same way in salesforce collections of object is called database.
+because like in table in sql objects in salesforce contains records
+ 
+That's why in internet it is said sObject is any object that can be stored in Force.com platform database.
+
+
+
+DIFFERENCE BETWEEN GENERIC SOBJECT AND SPECIFIC SOBJECT
+
