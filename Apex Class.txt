@@ -1,0 +1,5 @@
+PUBLIC 
+GLOBAL
+WITH SHARING
+WITHOUT SHARING
+LINK: https://www.tutorialkart.com/apex_soql/apex-access-modifiers-with-sharing-without-sharing/
