@@ -1,0 +1,38 @@
+/HOW TO CHANGE SYSTEM DATE
+
+1)system configuration
+2)SOD/EOD 
+3) enter the date you wish to visit
+
+
+
+//Interest Accured and interest remaining
+
+1)Last transaction date - present date (if not paid during the due date)
+2)interest remaining (before the next due date payment done and yet the interest accured amount is not satisfied)
+Can be seen in the account balance detail section of the contract
+
+ 
+
+//Automated Payment Setup
+( considering the situation that all the payment are done by the customer on duedate)
+We can automate the payments make a file of the records and upload it to the bank to manually
+deduct the amounts according to the noted transactions
+
+ACH means a payment type which is chosen is the trasaction is between bank to bank
+Should be done after disbursal of the loan
+1)detail page of contract
+2)automated setup process
+	select payment mode as ACH(automated clearing house)
+	Setup date: date when the contract has been generated
+	debit date: next due date as shown in contract
+	debit day: day in the next due date
+	Amount type: Last Billed Amount [if we select Fixed it will act for a loan account when we wish to make a payment]
+	Type:recurring
+	frequency:according to the frequency of payment in contrat
+	Actual date:same as the debit date
+	Click on Active
+3)Done
+
+
+
