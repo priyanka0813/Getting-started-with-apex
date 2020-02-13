@@ -14,7 +14,7 @@ Can be seen in the account balance detail section of the contract
 
  
 
-//Automated Payment Setup
+//Automated Payment Setup(For Automated payments )
 ( considering the situation that all the payment are done by the customer on duedate)
 We can automate the payments make a file of the records and upload it to the bank to manually
 deduct the amounts according to the noted transactions
@@ -34,5 +34,13 @@ Should be done after disbursal of the loan
 	Click on Active
 3)Done
 
+
+//Funding tranches( for funding to be done partially at a time for example education loan )
+1) create the loan contract
+2)in the partial Appication state go to funding related list and select the check box of funding tranches
+3)Funding stop basis (Draw period end means the end date when the bank would stop the transactions)
+4)Repayment start basis ( Choose full disbursal if customer want to start repayment after full disbursal
+		      Choose Draw period end(in case some disbursal is not done but still after the end period borrower wil not be able to draw any money))
+5)Disbursal status( if no disbursal is done yet choose pending disbursal)
 
 

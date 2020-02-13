@@ -1,0 +1,26 @@
+Apex OOP language allows salesforce developers to to execute the flow and transactio control statement
+It is a proprietory language developed by salesforce.com
+
+Allow developers to add business logic like
+Button click
+record update 
+Visual Force pages(interface used by the backend developers)
+
+Can be initiated with
+web service request 
+triggers on object
+
+It have built in support for DML operations like
+INSERT
+DELETE
+UPDATE
+and DML Exception Handling
+
+
+Apex Supports the following data types
+Primitive data type(Integer, Double, Long,Date,Datetime,String, ID or Boolean )
+Collections (List,Sets,Maps)
+sOjects
+Enum
+ClassesObjects and Interfaces
+
