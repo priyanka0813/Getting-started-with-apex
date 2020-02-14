@@ -1,3 +1,67 @@
-Introduction
+//Introduction
+Market place connects loan investors with the borrowers.
 
-Market place connects loan investors with
+//Key Players of market place
+Borrowers
+Investers
+Lenders( people who provide the platform for example CL market place )
+
+//MArket place LEnding Models pg 11
+Market Place lending
+Online Balance Sheet Lending
+Peer-to -Peer Lending
+Crowd Funding
+
+//Different departments in traditional lending process
+Sales/Customer Relationship 
+Credit
+Funding
+Contract/portfolio
+Billing Collection
+Accounting
+Risk Management
+Investor Management
+
+
+//Process overview
+1)The investors invest money to the platform investor's account the balance in the account increases
+2)the Borrower apply for loan
+3)Application go through the under written processis either approved or rejected
+4)Once approved the application is posted to the market place
+5)the investers book investments on the application 
+6)after the sufficient investments are made(if not sufficient lender i.e the platform invest the remaining amount and it is funded
+7) after the full funding Application becomes CL contract
+8)CL contact have a related list of Investor order this investor order is owned by the investor
+
+
+//post funding flow for CL market
+The CL contract generate bill everymonth
+2)the borrower make pyment
+3)that is payment is related to both borrower and the cl contract and it is splitted to many Investor loan transactions
+4)Investor loan transaction is related to investment order
+5)investment order affects Investor's account
+
+//Market Place Application Stages
+1)New (when the appliation is manually created)
+2)The loan Appliction is approved by the lender and avail able for funding
+3)funded (when application recieve sufficient amount for funding
+4)Expired( when bidding is not allowed anymore on the application )
+5)Cancelled (borrower cancel the application)
+6)Withdrawn (borrower withdraw application for some time being)
+7)Above Threshhold pf 20
+8) ready to fund
+
+//Key COncepts of CL market place
+
+Borrowers
+Investors
+Investor and Borrowe Portal
+Invetment Booking and Investment Order
+Investors Portfolio
+Peer to Peer lending
+Special Purpose Vehicle
+
+
+//Investors portfolio
+A portfolio is a collection of investments held by an investor and consist of investment
+bookings that provide the details of an investor's probable investment into a particular loan application
